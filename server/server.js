@@ -8,7 +8,7 @@ const contactRoute = require("./router/contact-router");
 const errorMiddleware = require("./middlewares/validate-middleware");
 
 const corsOptions = {
-origin: "http://localhost:5174",
+origin: "https://surplus-food-management-client.onrender.com",
 method: "GET,POST,PUT,DELETE,PATCH,HEAD",
 credentials:true,
 };
