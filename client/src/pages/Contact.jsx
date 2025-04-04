@@ -23,7 +23,7 @@ export const Contact = () => {
     // console.log(contact);
     e.preventDefault();
     try {
-      const response = await fetch("http://localhost:5000/api/form/contact", {
+      const response = await fetch("https://surplus-food-management.onrender.com/api/form/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
