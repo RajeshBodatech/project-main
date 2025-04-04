@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom"; // For redirecting after login
 import "./Login.css";
 
-const URL = "http://localhost:5000/api/auth/login";
+const URL = "https://surplus-food-management.onrender.com/api/auth/login";
 
 export const Login = () => {
   const [user, setUser] = useState({
